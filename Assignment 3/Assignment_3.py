@@ -38,8 +38,8 @@ time.sleep(3)
 first_video = driver.find_element(By.XPATH, "/html/body/ytd-app/div[1]/ytd-page-manager/ytd-browse[2]/ytd-two-column-browse-results-renderer/div[1]/ytd-section-list-renderer/div[2]/ytd-item-section-renderer/div[3]/ytd-shelf-renderer/div[1]/div[2]/ytd-expanded-shelf-contents-renderer/div/ytd-video-renderer[1]/div[1]/div/div[1]/div/h3/a")
 first_video.click()
 
-# Wait for the video to start playing
-time.sleep(10)
+# To add a delay to wait for potential ad to play and Wait for the video to start playing
+time.sleep(15)
 
 # Close the WebDriver
 driver.quit()
